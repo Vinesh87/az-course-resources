@@ -7,8 +7,11 @@ docker run -d \
  -p 5432:5432 \
  postgres:15
 
-# Export database connection string
+# Export database connection string for localhost
 export DB_LINK="postgresql://postgres:password@localhost:5432/mydb"
+
+# Sample export database connection for web app
+export DB_LINK="postgresql://nforbhbxmz:Qwerty123@stuportal-dbserver.postgres.database.azure.com:5432/mydb"
 
 # cd to src
 
