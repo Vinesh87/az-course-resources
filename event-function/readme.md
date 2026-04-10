@@ -403,7 +403,8 @@ making development, testing, and onboarding significantly easier.
 
 # 18. No Docker setup
 
-$ azurite --skipApiVersionCheck &
-$ docker run --name postgres-local -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=password -e POSTGRES_DB=postgres -p 5432:5432 -d postgres
-$ cd function-app
-$ func start
+$ azurite --skipApiVersionCheck &  
+$ docker run --name postgres-local -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=password -e POSTGRES_DB=postgres -p 5432:5432 -d postgres  
+$ cd function-app  
+$ func start  
+
